@@ -3,18 +3,25 @@ using namespace std;
 
 int main()
 {
-    cout << "Enter your name: " << flush;
-    string name;
+
+    string lName;
+    string fName;
     string age;
     float balance;
 
-    cin >> name;
+    cout << "Enter your first name: " << flush;
+    cin >> lName;
+
+    cout << "Enter your first name: " << flush;
+    cin >> fName;
+
     cout << "Enter your age: " << flush;
     cin >> age;
+
     cout << "Enter your account balance: " << flush;
     cin >> balance;
 
-    cout << "Your name is : " << name << endl;
+    cout << "Your name is : " << fName + " " + lName << endl;
     cout << "You are " << age << " years old" << endl;
     cout << "You have " << balance << " in your account" << endl;
 
