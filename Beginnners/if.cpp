@@ -14,6 +14,10 @@ int main()
     {
         cout << "access granted" << endl;
     }
+    // else if ()
+    // {
+    //     cout << "Enter something " << flush;
+    // }
     else
     {
         cout << "access denied" << endl;
