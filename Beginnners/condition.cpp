@@ -6,7 +6,7 @@ int main()
     int val1 = 2;
     int val2 = 4;
 
-    cout << "Enter two values: " << flush;
+    cout << "Enter two values: " << endl;
 
     int input1;
     int input2;

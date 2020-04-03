@@ -7,9 +7,9 @@ int main()
 
     cout << "1. \tAdd new rocord" << endl;
     cout << "2. \tDelete from rocords" << endl;
-    cout << "3. \Search records " << endl;
+    cout << "3. \tSearch records " << endl;
 
-    cout << "Select one option" << flush;
+    cout << "Select one option " << flush;
 
     int input;
     cin >> input;
